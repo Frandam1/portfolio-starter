@@ -2,9 +2,11 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
+      // Fuentes
+      primary: 'Krub',
       secondary: 'Rajdhani',
       tertiary: 'Aldrich',
+      four: 'Montserrat'
     },
     container: {
       padding: {
@@ -20,12 +22,18 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#B809C3',
+        // Color acento
+        accent: '#ffcc66',
+        accent2: '#1dbaee'
+        
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
+        // BG Imagen
+        site: "url('./assets/bg-blue.jpg')",
+        // Imagen frente
+        about: "url('./assets/aboutprueba.png')",
+        // Imagen Trabajando
+        services: "url('./assets/servicesprueba.png')",
       },
     },
   },

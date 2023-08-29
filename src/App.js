@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactModal from 'react-modal';
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';
@@ -18,7 +19,7 @@ const App = () => {
       <Services />
       <Work />
       <Contact />
-      {/* <div className='h-[4000px]'></div> */}
+      {/**<div className='h-[4000px]'></div>*/}
     </div>
   );
 };
